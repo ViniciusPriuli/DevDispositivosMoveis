@@ -4,7 +4,7 @@ import '../../domain/repositories/servico_repository.dart';
 class ServicoRepositoryImpl implements IServicoRepository {
   @override
   Future<List<Servico>> buscarTodos() async {
-    // Simulando um atraso de rede (delay)
+    
     await Future.delayed(const Duration(seconds: 1));
 
     return [
